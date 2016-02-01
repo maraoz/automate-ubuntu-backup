@@ -1,5 +1,6 @@
 # Automate Ubuntu Backups
 Automate Ubuntu backups, including aptitude packages, vim config, and encrypted keys.
+This is an ongoing project to try to reduce the overhead of formatting my laptop. 
 
 ## Getting started
 
@@ -26,6 +27,16 @@ $ sh backup.sh ~/Dropbox/Backups/2016-31-01/
 ```
 You'll be promted for the passphrase you set earlier.
 
+
+## Roadmap
+If you have some time to code it or already have scripts to do this, please create a PR:
+
+- PGP keys
+- cloned git projects (maybe with some interface to select what to backup)
+- automatically install vim vundle plugins when restoring
+- wallpapers
+- workspaces config (e.g. I use 3x3 workspaces)
+- remember wi-fi passwords
 
 ## License 
 Code released under the MIT license.
