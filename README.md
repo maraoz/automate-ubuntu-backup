@@ -3,6 +3,7 @@ Automate Ubuntu backups, including aptitude packages, vim config, and encrypted 
 
 ## Getting started
 
+### Backup
 To backup, choose a directory where you want to save your files (e.g. Dropbox, Google Drive, or any folder to then compress and store safely) and run:
 ```
 $ sh backup.sh path/to/backup/dir
@@ -12,7 +13,18 @@ Example:
 $ sh backup.sh ~/Dropbox/Backups/2016-31-01/
 ```
 
-You'll be promted for a passphrase to encrypt your ssh keys
+You'll be promted for a passphrase to encrypt your ssh keys. Remember it!
+
+### Restore
+To restore, download your file from Dropbox, Google Drive, etc. and run:
+```
+$ sh restore.sh path/to/backup/dir
+```
+Example:
+```
+$ sh backup.sh ~/Dropbox/Backups/2016-31-01/
+```
+You'll be promted for the passphrase you set earlier.
 
 
 ## License 
