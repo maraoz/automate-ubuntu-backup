@@ -37,6 +37,7 @@ If you have some time to code it or already have scripts to do this, please crea
 - wallpapers
 - workspaces config (e.g. I use 3x3 workspaces)
 - remember wi-fi passwords
+- remember date and time preferences (e.g: 24hs vs am/pm format)
 
 ## License 
 Code released under the MIT license.
