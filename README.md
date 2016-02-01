@@ -38,6 +38,7 @@ If you have some time to code it or already have scripts to do this, please crea
 - workspaces config (e.g. I use 3x3 workspaces)
 - remember wi-fi passwords
 - remember date and time preferences (e.g: 24hs vs am/pm format)
+- remember keyboard layout preferences
 
 ## License 
 Code released under the MIT license.
