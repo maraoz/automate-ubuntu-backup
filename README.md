@@ -17,7 +17,7 @@ $ sh backup.sh ~/Dropbox/Backups/2016-31-01/
 You'll be promted for a passphrase to encrypt your ssh keys. Remember it!
 
 ### Restore
-To restore, download your file from Dropbox, Google Drive, etc. and run:
+To restore, download your backup directory from Dropbox, Google Drive, etc. and run:
 ```
 $ sh restore.sh path/to/backup/dir
 ```
